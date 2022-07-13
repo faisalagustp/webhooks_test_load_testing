@@ -8,6 +8,8 @@ Simple test server to receive and show webhooks received from Facebook.
 Configure APP_SECRET, VERIFY_TOKEN under config variable settings for your project from the [Heroku developer dashboard](https://dashboard.heroku.com/apps/):
 * APP_SECRET is obtained from the [Facebook developer dashboard](https://developers.facebook.com/apps/) for your app. This is needed to verify that an update came from a Facebook server.
 * VERIFY_TOKEN is your "password" for setting up a webhooks subscription. 
+* PHONE_NUMBER_ID is your "phone number id" who will reply to an incoming message. 
+* TOKEN is your "TOKEN" that can be used to reply to a message
 
 2/ Setup your webhooks subscription from the webhooks dashboard on facebook for your app. 
 * The URL should be your app URL and /webhooks, e.g. https://{heroku-url}/webhooks
